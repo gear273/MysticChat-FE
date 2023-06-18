@@ -1,6 +1,23 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/Raleway-Regular.ttf') format('truetype');
+}
+body {
+  overflow: hidden;
+}
+
+
 .App {
   text-align: center;
+  background-color: #D9D9D9;  /* Cambia este valor al color que prefieras */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -21,7 +38,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #F5F5EF;
 }
 
 .App-link {

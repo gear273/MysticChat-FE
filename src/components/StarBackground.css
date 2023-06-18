@@ -1,0 +1,20 @@
+@keyframes twinkling {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: black;
+    animation: twinkling 5s infinite;
+}
+
+.star-container {
+    overflow: hidden;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+}
