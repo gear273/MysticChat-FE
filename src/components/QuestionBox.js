@@ -14,7 +14,7 @@ function QuestionBox({ isThinking, setIsThinking }) {
         e.preventDefault();
         setIsThinking(true); 
         try {
-          const response = await axios.post('https://www.mystichat.tech/tarot', {
+          const response = await axios.post('http://localhost:5000/tarot', {
             question
           });
           setAnswer(response.data.response); // Cambio: utilizar 'response' en lugar de 'result'
